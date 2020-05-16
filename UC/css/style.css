@@ -1,0 +1,73 @@
+/*Import fonts from fonts.css*/
+@import url(./fonts.css);
+
+html {
+    box-sizing: border-box;
+    max-width: 1350px;
+    margin: auto;
+    background-color: #F9F9FF;
+  }
+  /* inherit border-box on all elements in the universe and before and after
+   */
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .wrapper {
+	width: 97%;
+	max-width: 1200px;
+	margin: 0 auto;
+	float: none;
+    
+}
+
+  .logo{
+      font-size: 1.25rem;
+      font-family: Pacifico;
+      margin-left: 2%;
+      color: #0500A4;
+  }
+
+  .center{
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+  }
+
+  .under{
+      text-transform: uppercase;
+      font-family: SegoeUI;
+      margin-top: 2rem;
+  }
+  
+  h1{
+      margin: 0;
+  }
+  .light{
+      font-weight: 100;
+      color: #0500A4;
+  }
+
+  .regular{
+      font-weight: 600;
+      color: #FB435F;
+  }
+
+  ul{
+      list-style: none;
+  }
+
+  .links{
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      margin-top: 6rem;
+  }
+  
+  .fab{
+       margin-right: 1rem;
+       font-size: 2.5rem;
+       color: #0500A4;
+   }
