@@ -24,10 +24,12 @@ html {
 }
 
   .logo{
-      font-size: 1.25rem;
-      font-family: Pacifico;
-      margin-left: 2%;
-      color: #0500A4;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 1.25rem;
+    font-family: Pacifico;
+    margin-left: 2%;
+    color: #0500A4;
   }
 
   .center{
@@ -72,3 +74,19 @@ html {
        font-size: 2.5rem;
        color: #0500A4;
    }
+
+   @media only screen and (max-width: 400px)  {
+    .logo{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    .under{
+           font-size: 80%;
+       }
+
+    .links{
+        margin-top: 2rem;
+    }
+  }
