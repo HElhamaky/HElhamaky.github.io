@@ -175,9 +175,6 @@ p{
 }
 
 @media only screen and (max-width: 1120px)  {
-    body{
-        background-color: #ffc;
-    }
     .footer{
         flex-flow: column nowrap;
     }
