@@ -5,7 +5,7 @@ html {
     box-sizing: border-box;
     max-width: 1350px;
     margin: auto;
-    background-color: #F9F9FF;
+    background-color: #FFFFFF;
   }
   /* inherit border-box on all elements in the universe and before and after
    */
@@ -36,16 +36,22 @@ html {
       display: flex;
       flex-flow: row nowrap;
       justify-content: center;
+      margin: auto;
   }
+
+  
 
   .under{
       text-transform: uppercase;
       font-family: SegoeUI;
-      margin-top: 2rem;
+      margin-top: 3rem;
+      font-size: 1.5rem;
+      margin-top: 0;
   }
   
   h1{
       margin: 0;
+      color: #FB435F;
   }
   .light{
       font-weight: 100;
@@ -65,7 +71,7 @@ html {
       display: flex;
       flex-flow: row nowrap;
       justify-content: center;
-      margin-top: 6rem;
+      margin-top: 3rem;
       padding: 0%;
   }
   
@@ -75,13 +81,125 @@ html {
        color: #0500A4;
    }
 
-   @media only screen and (max-width: 400px)  {
+   .footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 30%;
+    margin: auto;
+
+    }
+    
+.footer h6{
+    text-transform: uppercase;
+    font-family: segoeUI;
+    color: #FB435F;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img2{
+    display: none;
+}
+
+.content{
+    max-width: 65%;
+    margin: auto;
+    padding-top: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.content h1{
+    
+    font-size: 2.5rem;
+}
+
+.gray-font{
+    color: gray;
+    text-decoration: underline;
+}
+
+.highlight-gray{
+    background-color: rgb(243, 242, 242);
+}
+
+.pullet-list{
+    list-style: none;
+}
+
+li::before {
+    content: "\25AA";
+    color: #0500A4;
+    font-size: 1.5rem;
+    margin: auto;
+
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+h2,h3{
+    font-weight: 500;
+    color: #0500A4;
+}
+
+p{
+    margin-left: 1%;
+}
+
+.blue{
+    color: #0500A4;
+}
+
+.pullet-list li::before {
+    color:#0500A4;
+    
+  }
+   
+@media only screen and (max-height: 700px)  {
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: inline;
+    }
+
+    .under{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 1120px)  {
+    body{
+        background-color: #ffc;
+    }
+    .footer{
+        flex-flow: column nowrap;
+    }
+    .footer h6{
+        margin: 0.25rem;
+    }
+}
+
+
+@media only screen and (max-width: 550px)  {
+    .footer{
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width: 400px)  {
+
     .logo{
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
     }
-
+    
     .under{
            font-size: 80%;
        }
