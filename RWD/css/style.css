@@ -586,7 +586,7 @@ footer .links{
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 35rem;
     font-size: 11pt;
     flex-basis: 50%;
