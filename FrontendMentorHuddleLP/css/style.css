@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url(./fonts.css);
 
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -23,8 +31,15 @@ button {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 1rem;
 }
@@ -43,8 +58,15 @@ header button {
 }
 
 .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   text-align: center;
   margin-top: 5rem;
@@ -76,9 +98,18 @@ header button {
 }
 
 .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column wrap;
   flex-flow: column wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   margin: auto;
   margin-bottom: 2rem;
@@ -87,6 +118,7 @@ header button {
 
 .stats img {
   width: 1.5rem;
+  -ms-flex-item-align: start;
   align-self: flex-start;
 }
 
@@ -106,7 +138,7 @@ header button {
 .card1::before {
   content: "";
   top: 0;
-  background: no-repeat bottom / cover url(./images/bg-section-top-mobile-1.svg);
+  background: no-repeat bottom / cover url(/images/bg-section-top-mobile-1.svg);
   height: 12rem;
   width: 100%;
   display: block;
@@ -115,7 +147,7 @@ header button {
 .card1::after {
   content: "";
   bottom: 0;
-  background: no-repeat top / cover url(./images/bg-section-bottom-mobile-1.svg);
+  background: no-repeat top / cover url(/images/bg-section-bottom-mobile-1.svg);
   height: 10rem;
   width: 100%;
   display: block;
@@ -124,7 +156,7 @@ header button {
 .card3::before {
   content: "";
   top: 0;
-  background: no-repeat bottom / cover url(./images/bg-section-top-mobile-2.svg);
+  background: no-repeat bottom / cover url(/images/bg-section-top-mobile-2.svg);
   height: 12rem;
   width: 100%;
   display: block;
@@ -133,7 +165,7 @@ header button {
 .card3::after {
   content: "";
   bottom: 0;
-  background: no-repeat top / cover url(./images/bg-section-bottom-mobile-2.svg);
+  background: no-repeat top / cover url(/images/bg-section-bottom-mobile-2.svg);
   height: 10rem;
   width: 100%;
   display: block;
@@ -144,8 +176,15 @@ header button {
 }
 
 .card-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
   flex-flow: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 85%;
   margin: auto;
@@ -204,7 +243,7 @@ footer {
 footer::before {
   content: "";
   top: 0;
-  background: no-repeat bottom / cover url(./images/bg-footer-top-mobile.svg);
+  background: no-repeat bottom / cover url(/images/bg-footer-top-mobile.svg);
   height: 5rem;
   width: 100%;
   display: block;
@@ -232,8 +271,15 @@ form input {
   margin: auto;
   width: 100%;
   height: 6.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
   flex-flow: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
 }
 
@@ -247,6 +293,7 @@ form input {
 }
 
 .footer img {
+  -webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1);
   margin-top: 8rem;
   margin-bottom: 1rem;
@@ -257,7 +304,12 @@ form input {
   color: white;
 }
 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row;
   flex-flow: row;
 }
 .contact .fas {
