@@ -1,0 +1,271 @@
+@import url(./fonts.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: open_sansregular;
+  max-width: 1440px;
+  color: hsl(192, 100%, 9%);
+}
+
+button {
+  font-family: open_sanssemibold;
+}
+
+.container {
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+header img {
+  height: 20px;
+}
+
+header button {
+  width: 6rem;
+  height: 25px;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 50px;
+  color: hsl(322, 100%, 66%);
+}
+
+.hero {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+  width: 90%;
+}
+
+.hero h1 {
+  font-family: poppinsbold;
+  margin-bottom: 2rem;
+}
+
+.hero p {
+  font-size: 11pt;
+}
+
+.hero button {
+  background-color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 50px;
+  height: 45px;
+  width: 14rem;
+  color: white;
+  margin-top: 4rem;
+}
+
+.hero img {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.stats {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 7rem;
+}
+
+.stats img {
+  width: 1.5rem;
+  align-self: flex-start;
+}
+
+.statNum {
+  font-size: 50pt;
+  font-family: open_sansbold;
+}
+
+.statText {
+  color: #999;
+}
+
+.card {
+  position: relative;
+}
+
+.card1::before {
+  content: "";
+  top: 0;
+  background: no-repeat bottom / cover url(/images/bg-section-top-mobile-1.svg);
+  height: 12rem;
+  width: 100%;
+  display: block;
+}
+
+.card1::after {
+  content: "";
+  bottom: 0;
+  background: no-repeat top / cover url(/images/bg-section-bottom-mobile-1.svg);
+  height: 10rem;
+  width: 100%;
+  display: block;
+}
+
+.card3::before {
+  content: "";
+  top: 0;
+  background: no-repeat bottom / cover url(/images/bg-section-top-mobile-2.svg);
+  height: 12rem;
+  width: 100%;
+  display: block;
+}
+
+.card3::after {
+  content: "";
+  bottom: 0;
+  background: no-repeat top / cover url(/images/bg-section-bottom-mobile-2.svg);
+  height: 10rem;
+  width: 100%;
+  display: block;
+}
+
+.card-background {
+  background-color: #f6fbff;
+}
+
+.card-layout {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.card-layout img {
+  max-width: 90%;
+  margin: 1rem 0rem;
+}
+
+.card-text {
+  margin: 5rem 0rem;
+}
+
+.card-text p {
+  line-height: 1.5rem;
+}
+
+.card-layout h2 {
+  margin-bottom: 1.5rem;
+  font-family: poppinsbold;
+  text-align: center;
+}
+
+.card-layout p {
+  text-align: center;
+  font-size: 12pt;
+}
+
+.card-layout button {
+  background-color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 50px;
+  height: 45px;
+  width: 14rem;
+  color: white;
+  margin-top: 4rem;
+}
+
+.last-card {
+  margin-top: 10rem;
+}
+
+footer {
+  margin-top: 7rem;
+}
+
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding: 4rem 2rem;
+}
+
+footer::before {
+  content: "";
+  top: 0;
+  background: no-repeat bottom / contain url(/images/bg-footer-top-mobile.svg);
+  height: 5rem;
+  width: 100%;
+  display: block;
+}
+
+.footer h2 {
+  padding-top: 3rem;
+  margin: 1rem 0;
+}
+
+.footer p {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+form input {
+  width: 100%;
+  margin: auto;
+  height: 2.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer form {
+  margin: auto;
+  width: 100%;
+  height: 6.5rem;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
+.footer button {
+  background-color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 10rem;
+  color: white;
+}
+
+.footer img {
+  filter: brightness(0) invert(1);
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+}
+
+.fab,
+.fas {
+  color: white;
+}
+.contact {
+  display: flex;
+  flex-flow: row;
+}
+.contact .fas {
+  font-size: 15pt;
+  margin-right: 1rem;
+}
+
+.social .fab {
+  font-size: 25pt;
+  margin-right: 1rem;
+}
