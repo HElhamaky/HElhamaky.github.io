@@ -63,25 +63,25 @@
 
   .card1::before {
     background: no-repeat bottom / cover
-      url(/images/bg-section-top-desktop-1.svg);
+      url(./images/bg-section-top-desktop-1.svg);
     height: 10rem;
   }
 
   .card1::after {
     background: no-repeat top / cover
-      url(/images/bg-section-bottom-desktop-1.svg);
+      url(./images/bg-section-bottom-desktop-1.svg);
     height: 8rem;
   }
 
   .card3::before {
     background: no-repeat bottom / cover
-      url(/images/bg-section-top-desktop-2.svg);
+      url(./images/bg-section-top-desktop-2.svg);
     height: 10rem;
   }
 
   .card3::after {
     background: no-repeat top / cover
-      url(/images/bg-section-bottom-desktop-2.svg);
+      url(./images/bg-section-bottom-desktop-2.svg);
     height: 8rem;
   }
 
@@ -128,7 +128,7 @@
 
   footer::before {
     height: 10rem;
-    background: no-repeat bottom / cover url(/images/bg-footer-top-desktop.svg);
+    background: no-repeat bottom / cover url(./images/bg-footer-top-desktop.svg);
   }
 
   .footer {
