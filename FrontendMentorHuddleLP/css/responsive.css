@@ -65,13 +65,13 @@
 
   .card1::before {
     background: no-repeat bottom / cover
-      url("/images/bg-section-top-desktop-1.svg");
+      url(/images/bg-section-top-desktop-1.svg);
     height: 10rem;
   }
 
   .card1::after {
     background: no-repeat top / cover
-      url("/images/bg-section-bottom-desktop-1.svg");
+      url(/images/bg-section-bottom-desktop-1.svg);
     height: 8rem;
   }
 
@@ -99,7 +99,7 @@
     flex-flow: row;
   }
 
-  .card-layout img {
+  .card-layout .card-illustration {
     flex: 1 0 0;
     padding: 2rem;
   }
