@@ -1,0 +1,162 @@
+@media (min-width: 800px) {
+  nav {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+  nav .logo {
+    flex: 3 0 0;
+  }
+
+  nav img {
+    max-width: 10rem;
+  }
+
+  nav ul {
+    flex: 1 0 0;
+  }
+
+  nav ul li {
+    font-size: 12pt;
+  }
+
+  .illustation {
+    max-width: 100%;
+  }
+
+  .hero {
+    flex-flow: row-reverse wrap;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  .hero .col1 {
+    flex: 1 0 0;
+  }
+
+  .hero .col2 {
+    flex: 1 0 0;
+    padding-top: 5rem;
+  }
+
+  .hero h1,
+  .hero p {
+    max-width: 85%;
+    text-align: left;
+    margin: 1rem;
+    font-size: ;
+  }
+
+  .hero h1 {
+    font-size: 25pt;
+  }
+
+  .hero form {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 80%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .hero input {
+    width: 20rem;
+    margin-right: 1rem;
+    height: 2.5rem;
+  }
+  .hero button {
+    width: 9rem;
+    height: 2.5rem;
+  }
+
+  .productive {
+    flex-flow: row nowrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .productivebg::before {
+    background: center / cover no-repeat url(../images/bg-curve-desktop.svg);
+  }
+
+  .productive .col1 {
+    flex: 1 0 0;
+  }
+
+  .productive .col2 {
+    flex: 1 0 0;
+  }
+
+  .productive h2 {
+    text-align: left;
+    font-size: 25pt;
+  }
+
+  .productive p {
+    max-width: 85%;
+  }
+
+  .how {
+    margin-left: 0;
+  }
+
+  .card {
+    margin-left: 0;
+    max-width: 50%;
+  }
+
+  .early {
+    flex-flow: row wrap;
+  }
+
+  .early .col1 {
+    flex: 1 0 0;
+  }
+
+  .early .col2 {
+    flex: 1 0 0;
+  }
+
+  .early p,
+  .early h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+    max-width: 75%;
+  }
+
+  .early h2 {
+    font-size: 25pt;
+  }
+
+  .early form {
+    width: 90%;
+    margin: auto;
+  }
+
+  .early button {
+    max-width: 50%;
+  }
+
+  footer {
+    flex-flow: row wrap;
+  }
+
+  footer .col1 {
+    padding-right: 10rem;
+  }
+
+  footer .col1,
+  footer .col2,
+  footer .col3,
+  footer .col4 {
+    flex: 1 0 0;
+  }
+
+  footer .col2,
+  footer .col3 {
+    margin-top: 5rem;
+  }
+
+  footer .col4 {
+    margin: auto;
+  }
+}
