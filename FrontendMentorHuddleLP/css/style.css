@@ -136,7 +136,7 @@ header button {
 }
 
 .card1::before {
-  content: "";
+  content: "sssssdsdss";
   background: no-repeat bottom / cover url(/images/bg-section-top-mobile-1.svg);
   display: block;
   height: 12rem;
