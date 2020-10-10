@@ -64,8 +64,11 @@
   }
 
   .card1::before {
-    background: no-repeat bottom / cover
-      url(/images/bg-section-top-desktop-1.svg);
+    background-color: cyan;
+    background-size: cover;
+    display: block;
+    /* background: no-repeat bottom / cover
+      url(/images/bg-section-top-desktop-1.svg); */
     height: 10rem;
   }
 
