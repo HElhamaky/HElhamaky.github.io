@@ -156,7 +156,8 @@ header button {
 
 .card3::before {
   content: "";
-  background: url(/images/bg-section-top-mobile-2.svg) no-repeat bottom / cover;
+  background: url(../images/bg-section-top-mobile-2.svg) no-repeat bottom /
+    cover;
   display: block;
   height: 12rem;
   width: 100%;
@@ -165,7 +166,8 @@ header button {
 
 .card3::after {
   content: "";
-  background: no-repeat top / cover url(/images/bg-section-bottom-mobile-2.svg);
+  background: no-repeat top / cover
+    url(../../images/bg-section-bottom-mobile-2.svg);
   display: block;
   height: 10rem;
   width: 100%;
@@ -243,7 +245,7 @@ footer {
 
 footer::before {
   content: "";
-  background: no-repeat bottom / cover url(/images/bg-footer-top-mobile.svg);
+  background: no-repeat bottom / cover url(./images/bg-footer-top-mobile.svg);
   display: block;
   height: 5rem;
   width: 100%;
