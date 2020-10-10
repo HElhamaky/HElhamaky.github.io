@@ -155,7 +155,7 @@ header button {
 
 .card3::before {
   content: "";
-  background: no-repeat bottom / cover url(/images/bg-section-top-mobile-2.svg);
+  background: url(/images/bg-section-top-mobile-2.svg) no-repeat bottom cover;
   display: block;
   height: 12rem;
   width: 100%;
